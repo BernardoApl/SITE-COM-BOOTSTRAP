@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="login.css">
+  <title>NIKEtZ</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg  bg-dark text-light" data-bs-theme="dark">
+    <div class="container-fluid">
+
+
+      <a class="navbar-brand" href="#">NIKETTZ</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://www.nike.com.br">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://atendimento.nike.com.br/hc/pt-br/articles/14832134114835-Canais-de-Atendimento?gad_source=1&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TltLJvzODll3os6cDMK0o-MxUghXm6Akr3eOAaFc6sQDSkbAeZi2IYaApUxEALw_wcB">Contato</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Produtos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.nike.com.br/nav/categorias/camisetas/genero/masculino/idade/adulto/tipodeproduto/roupas">Camisas</a></li>
+              <li><a class="dropdown-item"
+                  href="https://www.nike.com.br/busca?term=calças">Calças
+                </a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item"
+                  href="https://www.nike.com.br/nav/tipodeproduto/calcados?gad_source=1&gclid=Cj0KCQjwqpSwBhClARIsADlZ_Tkpo9d94FKv4gUTX5GGwFApgL-xrxTB4lm5SLqoglM6e_lzrDikRBgaAhl0EALw_wcB&utm_referrer=https://www.google.com/">Tênis
+                </a></li>
+            </ul>
+          </li>
+
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="mx-">
+    <h1
+      class="bg-dark bg- gradient text-light mt-1 px-4 border-top-dark border-top-border-md-3 col-sm-6 border-primary-subtle mx-md-2 col-sm-6 text-end text-uppercase fs-md-3 col-sm-6 fw-bold text-end">
+      OLÁ, USUÁRIO SIGA AS INFORMAÇÕES ABAIXO E NAVEGUE NOS PRODUTOS A SEGUIR.</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <h2>Pacotes/itens de Roupas</h2>
+    <div class="container-fluid my-2">
+      <div class="row">
+        <div class="card col-4">
+          <img
+            src="https://imgnike-a.akamaihd.net/768x768/01638853.jpg"
+            class="card-img-top" 
+          <div class="card-body">
+            <h5 class="card-title">Roupas Masculinas</h5>
+            <p class="card-text">Melhores Roupas Masculinas do mercado</p>
+            <a
+              href="https://www.nike.com.br/sc/masculino-1">Clique
+              para acessar</a>
+          </div>
+        </div>
+        <div class="card col-4">
+          <img
+            src="https://imgcentauro-a.akamaihd.net/768x768/95447331.jpg"
+            class="card-img-top" 
+          <div class="card-body">
+            <h5 class="card-title">Camisas</h5>
+            <p class="card-text">Melhores Roupas Femininas </p>
+            <a href="https://www.nike.com.br/nav/genero/feminino/tipodeproduto/roupas" class="btn btn-primary">Clique para acessar</a>
+          </div>
+        </div>
+        <div class="card col-4">
+          <img
+            src="https://imgcentauro-a.akamaihd.net/768x768/97935551A1.jpg"
+            class="card-img-top" 
+          <div class="card-body">
+            <h5 class="card-title">Tênis</h5>
+            <p class="card-text">Melhores Tênis </p>
+            <a href="https://www.nike.com.br/nav/categorias/tenis/genero/masculino/tipodeproduto/calcados" class="btn btn-primary">Clique para acessar</a>
+        
+
+
+      </div>
+      <p class="lhr-sm"> </p>
+
+      <div class="container mg-2 text-center">
+        <h4><strong> Comentários sobre as requisições do site </strong></h4>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 bg-secondary border border-light-1"> Incrível como os sites são bem projetados
+            hoje em dia, não é mesmo? Cada vez que acesso um, fico maravilhado com a rapidez das requisições. É como se
+            os nervos de uma rede gigante estivessem trabalhando para me fornecer exatamente o que preciso, quando
+            preciso. É fascinante como essas solicitações são processadas em questão de milissegundos, tornando minha
+            experiência na web tão suave e eficiente.</div>
+          <div class="col-md-3 col-sm-6 bg-secondary border border-light-1 "> É impressionante como os sites conseguem
+            entregar o conteúdo tão rapidamente. Sempre que navego pela internet, percebo como as requisições são como
+            uma sinfonia digital perfeitamente orquestrada. Os servidores e os protocolos de comunicação trabalham em
+            harmonia para me proporcionar uma experiência de navegação fluida e sem interrupções. É como se cada clique
+            fosse acompanhado por uma resposta instantânea, tornando minha jornada online extremamente satisfatória.
+          </div>
+          <div class="col-md-3 col-sm-6 bg-secondary border border-light-1"> Estou sempre maravilhado com a eficiência
+            das requisições dos sites. É como se os servidores estivessem sempre prontos para atender às minhas
+            demandas, assim que eu as faço. É como se cada pedido que eu fizesse fosse cuidadosamente processado e
+            entregue de volta a mim em tempo recorde. É simplesmente incrível como a tecnologia por trás dos sites
+            modernos é capaz de proporcionar uma experiência tão fluida e responsiva.</div>
+          <div class="col-md-3 col-sm-6 bg-secondary border border-light-1"> Não posso deixar de elogiar a rapidez com
+            que os sites respondem às minhas requisições. É como se cada visita que faço fosse recebida com uma resposta
+            imediata, como se os servidores estivessem esperando ansiosamente para me fornecer as informações de que
+            preciso. É reconfortante saber que posso confiar na eficiência dos sites que visito, sabendo que minhas
+            solicitações serão sempre atendidas prontamente.</div>
+          <div class="col-md-3 col-sm-6 bg-secondary border border-light-1"> Fico impressionado com a velocidade com que
+            os sites processam minhas requisições. Cada vez que acesso um site, sou recebido com uma resposta rápida e
+            precisa, como se os servidores estivessem dedicados a me fornecer o melhor serviço possível. É como se cada
+            clique que eu desse fosse imediatamente reconhecido e respondido, tornando minha experiência de navegação
+            tão agradável e sem esforço.</div>
+          <div class="col-md-3 col-sm-6 bg-secondary border border-light-1"> Estou verdadeiramente impressionado com a
+            eficácia das requisições dos sites que visito. É incrível como os servidores conseguem processar minhas
+            solicitações tão rapidamente, garantindo que eu tenha acesso rápido e fácil às informações de que preciso. É
+            como se cada visita que eu fizesse fosse recebida com uma resposta calorosa e imediata, tornando minha
+            experiência online verdadeiramente excepcional.</div>
+        </div>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              PRODUTOS
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>ITENS MAIS VENDIDOS
+
+                Tênis de Corrida (ex: Nike Air Zoom Pegasus, Nike Air Zoom Structure)
+                Sapatilhas Casuais (ex: Nike Air Force 1, Nike Air Max)
+                Roupas Esportivas (ex: camisetas, shorts, calças, jaquetas, leggings)
+                Roupas de Treino (ex: regatas, calças de moletom, agasalhos, jaquetas corta-vento)
+                Equipamento de Basquete (ex: tênis Nike LeBron, Nike Kyrie, Nike Kobe, camisetas, shorts)
+                Equipamento de Futebol (ex: chuteiras de futebol, camisas de time, shorts)
+                Equipamento de Treino (ex: luvas de academia, meias de desempenho, garrafas de água, bolsas de ginástica)
+                Acessórios (ex: bonés, mochilas, meias, luvas, equipamentos de proteção)</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Roupas baratas e luxuosas
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Uniqlo,
+                Camiseta Nike Sportswear Essential,
+                Shorts Nike Dri-FIT Academy,
+                Jaqueta Nike Sportswear Windrunner,
+                Calça Nike Sportswear Tech Fleece.</strong>
+            </div>
+          </div>
+        </div>
+
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="mask flex-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>Melhores Produtos</h4>
+                 
+                  <a href="https://www.nike.com.br">BUY NOW</a> </div>
+                <div class="col-md-5 col-12 order-md-2 order-1"><img src="https://i.pinimg.com/236x/ff/2f/88/ff2f888a07f292e308e02c28d800697c.jpg" class="mx-auto" alt="slide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="mask flex-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>Melhores Produtos NIKE <br>
+                    </h4>
+                  
+                  <a href="https://www.nike.com.br">BUY NOW</a> </div>
+                <div class="col-md-5 col-12 order-md-2 order-1"><img src="https://i.pinimg.com/236x/ff/2f/88/ff2f888a07f292e308e02c28d800697c.jpg" class="mx-auto" alt="slide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="mask flex-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-7 col-12 order-md-1 order-2">
+                  <h4>Presencie os <br>
+                    Melhores produtos</h4>
+                  <p>PRODUTOS NIKE
+                  <a href="#">BUY NOW</a> </div>
+                <div class="col-md-5 col-12 order-md-2 order-1"><img src="https://i.imgur.com/DGkR4OQ.png" class="mx-auto" alt="slide"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    <div class="container">
+      <br>
+      <h4>Acessórios da NIKE</h2>
+    <br>
+    <div class="row" id="ads">
+      
+      <div class="col-md-4">
+          <div class="card rounded">
+              <div class="card-image">
+                  <span class="card-notify-badge">Tênis Air Jordan 1 Mid Masculino</span>
+                  
+                  <img class="img-fluid" src="https://imgnike-a.akamaihd.net/1920x1920/02433151.jpg" alt="Alternate Text" />
+              </div>
+              <div class="card-image-overlay m-auto">
+                  <span class="card-detail-badge">NEW</span>
+                  <span class="card-detail-badge">R$1139,00</span>
+
+              <div class="card-body text-center">
+                  <div class="ad-title m-auto">
+                      <h5>JORDAN I</h5>
+                  </div>
+                  <a class="ad-btn" href="https://www.nike.com.br/tenis-air-jordan-1-mid-masculino-024331.html?cor=51&gad_source=1&gclid=Cj0KCQjwqpSwBhClARIsADlZ_Tlw4bd5wEfjAq7a1-flOxoKt34iaE_h38lBozdyT_EbGFXDLquTxZYaApLHEALw_wcB">View</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card rounded">
+              <div class="card-image">
+                  <span class="card-notify-badge">Tênis Jordan Jumpman MVP Masculino</span>
+                  <
+                  <img class="img-fluid" src="https://imgnike-a.akamaihd.net/1920x1920/0270685A.jpg" alt="Alternate Text" />
+              </div>
+              <div class="card-image-overlay m-auto">
+                  <span class="card-detail-badge">NEW</span>
+                  <span class="card-detail-badge">R$1,234.099</span>
+                  
+              </div>
+              <div class="card-body text-center">
+                  <div class="ad-title m-auto">
+                      <h5>Tênis Jordan Jumpman MVP Masculino</h5>
+                  </div>
+                  <a class="ad-btn" href="https://imgnike-a.akamaihd.net/1920x1920/0270685A.jpg">View</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+          <div class="card rounded">
+              <div class="card-image">
+                  <span class="card-notify-badge">Tênis Jordan Jumpman MVP Masculino</span>
+                  
+                  <img class="img-fluid" src="https://imgnike-a.akamaihd.net/1920x1920/027068IM.jpg" alt="Alternate Text" />
+              </div>
+              <div class="card-image-overlay m-auto">
+                  <span class="card-detail-badge">NEW</span>
+                  <span class="card-detail-badge">R$1,234.99</span>
+                  
+              </div>
+              <div class="card-body text-center">
+                  <div class="ad-title m-auto">
+                      <h5>Tênis Jordan Jumpman MVP Masculino</h5>
+                  </div>
+                  <a class="ad-btn" href="https://www.nike.com.br/tenis-jordan-mvp-masculino-027068.html?cor=IM&gad_source=1&gclid=Cj0KCQjwqpSwBhClARIsADlZ_TkMAMmyogjxnIA5WE7xkMe2NqMFYBP0Zn8QuWvLfHTEDHwyAtaBk0caAu-JEALw_wcB">View</a>
+              </div>
+          </div>
+      </div>
+        <div class="container">
+                    <div class="row blog">
+                        <div class="col-md-12">
+                            <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#blogCarousel" data-slide-to="1"></li>
+                                </ol>
+
+                                
+ 
+                    </div>
+        </div>
+
+    </div>
+
+      <div class="page-container">
+
+                  <form action="https://static.vecteezy.com/ti/vetor-gratis/t2/10994232-nike-logotipo-design-de-roupas-pretas-icone-abstrato-futebol-ilustracaoial-com-fundo-branco-gratis-vetor.jpg" method="POST">
+            <h1>Se Increver</h1>
+                      <input type="text" name="name" class="Name" placeholder="Nnme">
+                      <input type="text" name="tele" class="Tele" placeholder="Número">
+              <input type="text" name="email" class="Email" placeholder="Email">
+              <input type="password" name="password" class="Address" placeholder="Senha">
+                      <button type="submit" value="Add" name="submit">Acessar</button>
+                  </form>
+              </div>
+
+    </div>
+  
+  <hr>
+ 
+  <div class="container">
+    <div class="row">
+      <h3>STATUS ATUALIZADOS </h3>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6">
+        <div class="widget-area no-padding blank">
+          <div class="status-upload">
+            <form>
+              <textarea placeholder="Está gostando do site? Desxe sua opinião?"></textarea>
+              <ul>
+                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Audio"><i
+                      class="fa fa-music"></i></a></li>
+                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Video"><i
+                      class="fa fa-video-camera"></i></a></li>
+                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Sound Record"><i
+                      class="fa fa-microphone"></i></a></li>
+                <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Picture"><i
+                      class="fa fa-picture-o"></i></a></li>
+              </ul>
+              <button type="Acessar" class="btn btn-success green"><i class="fa fa-share"></i> Compartilhar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="container text-center">
+    <hr />
+    <div class="row">
+      <div class="col-lg-12 text-center bg-dark">
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Sobre nos</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Product for Mac</a></li>
+            <li><a href="#">Product for Windows</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Web analytics</a></li>
+            <li><a href="#">Presentations</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <ul class="nav nav-pills nav-stacked">
+            <li><a href="#">Product Help</a></li>
+            <li><a href="#">Developer API</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="nav nav-pills nav-justified">
+          <li><a href="/">© 2024 Company Name.</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
